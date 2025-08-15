@@ -11,6 +11,6 @@ public class ProductController {
     @GetMapping("/products")
     public String getProducts()
     {
-        return "Welcome to Products";
+        return "Welcome to Apple Products";
     }
 }
