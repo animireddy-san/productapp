@@ -18,7 +18,7 @@ spec:
   spec: 
     containers:
     - name: productappcontainer
-      image: animireddy/productapp:v1
+      image: animireddy/productapp:latest
       imagePullPolicy: Always
       ports:
       - containerPort: 8080
